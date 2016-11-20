@@ -1,0 +1,126 @@
+@charset "utf-8";
+*{
+	padding:0;margin:0;
+}
+#whitewine{
+	width: 100%;
+	header{
+		height: 2.4rem;
+		background: #fafafa;
+		display: flex;
+		justify-content:space-around;
+		align-items:center;
+		border-bottom: 1px solid #e4e4e4;
+		div{
+			height:1.493333rem;
+			width: 16.293333rem;
+			margin-left: 0.766667rem;
+			border-radius: 0.32rem;
+			background:  #ececec;
+			display: flex;
+			align-items:center;
+			img{
+				margin-left: 0.266667rem;
+				height: 0.746667rem;
+				width: 0.746667rem;
+
+			}
+
+			input{
+				width: 14.293333rem;
+				border:none;
+				background:  #ececec;
+				font-size:0.586667rem;
+				
+			}
+		}
+		
+		a{
+
+			margin-right:0.54rem;
+
+			img{
+				height: 1.226667rem;
+				width: 1.226667rem;
+
+			}
+		}
+	}
+	.main{
+		width: 100%;
+		background: white;
+		display: flex;
+		.nav{
+			width: 22.667%;
+			ul{
+				background: #f5f5f5;
+				height: 29.493333rem;
+				li{
+					width: 100%;
+					height:2.666667rem;
+					line-height: 2.666667rem;
+					text-align: center;
+					border-bottom: 1px solid #e4e4e4;
+					a{
+						font-size: 0.64rem;
+						position: relative;
+						img{
+							background: white;
+							position: absolute;
+							top:-0.506667rem;
+							right: - 0.746667rem;
+							height: 0.506667rem;
+							width: 0.746667rem;
+						}
+					}
+				}
+				li:last-of-type{
+					border-bottom: none;
+				}
+			}
+		}
+		.product{
+			width: 77.333%;
+			margin:0.533333rem 0.533333rem 0 0.533333rem; 
+			
+			.hotBrandProduct{
+				width: 100%;
+				display: flex;
+				flex-wrap:wrap;
+				dl{
+					width: 33.3333%;
+					height: 5.2rem;
+					display: flex;
+					flex-wrap:wrap;
+					justify-content:center;
+					align-content:space-around;
+					dt{
+						margin-top: 0.2rem;
+						width: 100%;
+						height: 60%;
+						display: flex;
+						justify-content:center;
+						align-content:center;
+						a{
+							display: flex;
+							align-items:center;
+							img{
+								height: 3.333333rem;
+								width:3.253333rem;
+							}
+						}
+						
+					}
+					dd{
+						height: 40%;
+						padding-bottom: 0.266667rem;
+						a{
+							font-size: 0.613333rem;
+							color: #8d8d8d; 
+						}
+					}
+				}
+			}
+		}
+	}
+}

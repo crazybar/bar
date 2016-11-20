@@ -1,0 +1,72 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+li{list-style: none; }
+
+#box_tow{ width: 100%; }
+
+header{ width: 100%;height: 2.666667rem;background-color: #de4943; 
+	color: #fff;font-weight: bold;
+}
+header p{ width: 100%; display: flex;}
+header a{ color: #fff; }
+
+header span{ line-height: 2.666667rem;width: 50%; }
+header a:first-of-type{ width: 50%; display:block;line-height: 2.666667rem;
+	text-indent: 0.64rem;
+}
+
+header a:last-of-type{ width: 10%; }
+header a:last-of-type span{ display:block;background-color: #fff;
+	height: 0.153333rem;margin-top: 0.333333rem;width: 1.2rem;
+
+ }
+ header a:last-of-type span:first-of-type{ margin-top: 0.733333rem; }
+
+
+.field{ width: 100%;display: flex;}
+.field p{ width: 70%;text-align: center;margin-top: 0.533333rem; }
+.field p img{ width: 10.6rem;height: 9.0rem; }
+.field span{ /*display: block;*/ width: 50%;margin-top: 0.533333rem;}
+.field span a{ display: block; width: 80%;}
+.field span img{ width: 100%;height: 100%; }
+
+nav{ width: 100%;height: 4.833333rem;;}
+nav ul{ width: 100%;/*display: flex;flex-warp:warp;*/height: 100%; }
+nav ul li{ float:left;width:22%;text-align: center; 
+	border: 2px solid #eee;font-size: 0.753333rem;
+	margin-left: 0.266667rem;margin-top: 0.533333rem;
+	padding: 5px 0;
+}
+nav ul li:first-of-type{ margin-left:0.533333rem; }
+nav ul li:nth-of-type(5){  margin-left:0.533333rem; }
+nav ul li a{ color: gray; }
+
+.recommend_2{ width: 100%;height: 2.666667rem;display: flex; }
+.recommend_2 h5{ color: gray;height: 100%;width: 25%;
+	line-height: 2.666667rem;text-align: center;
+}
+.recommend_2 span{ display: inline-block; border-top: 2px solid #A2A2A2;
+	width: 35%;	margin-top: 1.233333rem;	
+ }
+.recommend_2 span:first-of-type{ margin-left: 0.533333rem; 
+	
+ }
+
+.liquor_2{ width: 100%;}
+.liquor_2 dl{ display: flex;width: 96%;margin-left: 2%;
+	height: 6.666667rem;border-bottom: 1px solid #A2A2A2;
+
+ }
+.liquor_2 dl dt{ width: 30%; text-align: center;}
+.liquor_2 dl dt img{ height: 4.266667rem;width: 4.266667rem; margin-top: 0.533333rem;}
+.liquor_2 dl dd span{ display: block;height: 50%;font-size: 0.773333rem;
+	color: #333;
+ }
+
+.liquor_2 dl dd h4{ color: #df4a44; }
+.liquor_2 dl :not(.one){ margin-top: 0.533333rem; }
+
+
+
+
+
